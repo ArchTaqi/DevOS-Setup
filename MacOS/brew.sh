@@ -130,6 +130,11 @@ brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" filezilla
 brew cask install --appdir="/Applications" transmission
 
+brew cask install --appdir="/Applications" vlc
+brew cask install --appdir="/Applications" spotify
+
+
+
 # Install Docker, which requires virtualbox
 brew install docker
 brew install boot2docker
