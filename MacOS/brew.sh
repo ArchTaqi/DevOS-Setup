@@ -97,14 +97,21 @@ heroku update
 #brew cask install --appdir="/Applications" alfred
 #brew cask install --appdir="~/Applications" java
 #brew cask install --appdir="~/Applications" xquartz
+brew cask install --appdir="~/Applications" postman
+
+echo " Installing Terminal Utils"
 brew cask install --appdir="~/Applications" vim
 brew cask install --appdir="~/Applications" iterm2
-brew cask install --appdir="~/Applications" postman
-echo " Installing Terminal Utils"
+# Theme to be Used
+# https://draculatheme.com/iterm
 brew install --force zsh
 brew install --force tmux
 brew install --force tree
 brew install --force screen
+git clone https://github.com/powerline/fonts.git
+cd fonts
+./install.sh
+
 
 
 # Development tool casks
