@@ -83,6 +83,13 @@ brew install zopfli
 brew install pkg-config libffi
 brew install pandoc
 
+# Dev Productivity Tools
+brew install exa
+brew install peco
+brew install fish
+brew install neovim
+
+
 # Lxml and Libxslt
 brew install libxml2
 brew install libxslt
