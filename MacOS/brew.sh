@@ -119,7 +119,7 @@ git clone https://github.com/powerline/fonts.git
 cd fonts
 ./install.sh
 
-
+brew install --cask keybase
 
 # Development tool casks
 brew cask install --appdir="/Applications" sublime-text
