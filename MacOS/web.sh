@@ -19,6 +19,7 @@ fi
 brew update
 
 brew install node
+brew install yarn
 
 # Remove outdated versions from the cellar.
 brew cleanup
