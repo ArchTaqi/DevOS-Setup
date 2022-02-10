@@ -31,3 +31,7 @@
 - [ ] [Typefully](https://typefully.com/): Write, schedule & publish great threads, without distractions — and boost your Twitter growth with powerful analytics.
 - [ ] [Vercel](https://vercel.com/): Everything I make on the internet lives on Vercel. Vercel is the gold standard of developer tools.
 - [x] [VSCode](https://code.visualstudio.com/): My code editor of choice.
+- [x] [Whimsical](https://whimsical.com): Whimsical offers fast collaborative Docs, Flowcharts, Wireframes, Sticky Notes and Mind Maps. 
+
+
+
