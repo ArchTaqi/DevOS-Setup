@@ -34,4 +34,20 @@
 - [x] [Whimsical](https://whimsical.com): Whimsical offers fast collaborative Docs, Flowcharts, Wireframes, Sticky Notes and Mind Maps. 
 
 
+<hr />
+
+## PaaS
+
+- [x] [Heroku](https://heroku.com/): cloud platform to deploy stuff in different programming languages.
+- [x] [Render](https://render.com/): Competitor to Heorku
+
+
+
+
+
+
+
+
+
+
 
