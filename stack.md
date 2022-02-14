@@ -42,6 +42,18 @@
 - [x] [Render](https://render.com/): Competitor to Heorku
 
 
+<hr /> 
+
+## Startup Apps Tool
+
+- [x] [Glide
+](https://glideapps.com/): Mobile app generator with app-like features. I use Glide to build the mobile app for the meal kit startup where it allows users to sign-in via Google, browse recipes, customize meal plans, and place orders.
+
+
+
+
+
+
 
 
 
