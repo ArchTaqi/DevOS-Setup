@@ -1,4 +1,4 @@
-# Software and Systems do I use? - Current Tech Stack 
+# Software I'm Thankful For
 
 
 - [x] [1Password](https://1password.com/): 1Password manager
@@ -49,11 +49,14 @@
 - [x] [Glide
 ](https://glideapps.com/): Mobile app generator with app-like features. I use Glide to build the mobile app for the meal kit startup where it allows users to sign-in via Google, browse recipes, customize meal plans, and place orders.
 - [x] [Clerk.dev](https://clerk.dev): Authentication forms for your web apps.
+- [x] [Prism](https://stoplight.io/open-source/prism/): Prism, an Open-Source HTTP Mock & Proxy Server
 
 
+<hr /> 
 
+## Servers
 
-
+- [x] [Httpie (CLI)](https://httpie.io/cli):
 
 
 
