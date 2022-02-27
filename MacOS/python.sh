@@ -6,6 +6,19 @@ echo "------------------------------"
 echo "Setting up python 3 environment."
 
 # Install Python
+brew install pipenv
+brew install pyenv
+
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+if command -v pyenv 1>/dev/null 2>&1; then   
+  eval "$(pyenv init -)" 
+fi
+exec "$SHELL"
+
+# let’s download Python 3.9.10
+pyenv install 3.9.10
+
 brew install --force python3
 brew link python3
 
