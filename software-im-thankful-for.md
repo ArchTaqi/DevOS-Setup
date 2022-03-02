@@ -33,6 +33,11 @@
 - [x] [VSCode](https://code.visualstudio.com/): My code editor of choice.
 - [x] [Whimsical](https://whimsical.com): Whimsical offers fast collaborative Docs, Flowcharts, Wireframes, Sticky Notes and Mind Maps. 
 
+<hr />
+
+## Collab & Managment
+
+- [x] [Allo.io](https://allo.io): Allo combines the advantages of Trello, Miro, and PowerPoint. It really improves our workflow and makes our lives less complicated.
 
 <hr />
 
