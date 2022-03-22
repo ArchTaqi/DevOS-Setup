@@ -61,16 +61,8 @@
 
 <hr /> 
 
-## Servers
+## Architecture and Servers
 
+- [x] [Diagram as Code](https://github.com/mingrammer/diagrams) Diagrams lets you draw the cloud system architecture in Python code.
 - [x] [Httpie (CLI)](https://httpie.io/cli):
-
-
-
-
-
-
-
-
-
 
