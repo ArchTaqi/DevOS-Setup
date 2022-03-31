@@ -35,6 +35,12 @@
 
 <hr />
 
+<hr />
+
+## Productivity
+
+- [x] [Rize.io](https://rize.io/): 
+
 ## Collab & Managment
 
 - [x] [Allo.io](https://allo.io): Allo combines the advantages of Trello, Miro, and PowerPoint. It really improves our workflow and makes our lives less complicated.
