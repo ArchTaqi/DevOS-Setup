@@ -147,6 +147,27 @@ brew cask install --appdir="/Applications" transmission
 brew cask install --appdir="/Applications" vlc
 brew cask install --appdir="/Applications" spotify
 
+brew cask install --appdir="/Applications" iterm2
+brew cask install --appdir="/Applications" alfred
+brew cask install --appdir="/Applications" rectangle
+brew cask install --appdir="/Applications" alt-tab
+brew cask install --appdir="/Applications" firefox-developer-edition
+brew cask install --appdir="/Applications" app-cleaner
+brew cask install --appdir="/Applications" android-file-transfer
+brew cask install --appdir="/Applications" android-platform-tools
+brew cask install --appdir="/Applications" keepingyouawake
+brew cask install --appdir="/Applications" discord
+brew cask install --appdir="/Applications" slack
+brew cask install --appdir="/Applications" vlc
+brew cask install --appdir="/Applications" keka
+brew cask install --appdir="/Applications" kap
+brew cask install --appdir="/Applications" time-out
+brew cask install --appdir="/Applications" gimp
+brew cask install --appdir="/Applications" inkscape
+brew cask install --appdir="/Applications" visual-studio-code
+brew cask install --appdir="/Applications" sublime-text
+brew cask install --appdir="/Applications" insomnia
+
 
 
 # Install Docker, which requires virtualbox
