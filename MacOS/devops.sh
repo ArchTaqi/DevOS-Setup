@@ -21,3 +21,5 @@ brew install aquasecurity/trivy/trivy
 brew install kubectl
 brew install hyperkit
 brew install minikube
+brew install kustomize
+
