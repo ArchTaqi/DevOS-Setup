@@ -38,7 +38,6 @@
 	"editor.acceptSuggestionOnEnter": "on",
 	"editor.autoClosingBrackets": "never",
 	"editor.cursorBlinking": "solid",
-	"editor.cursorStyle": "block",
 	"editor.cursorSurroundingLines": 10,
 	"editor.folding": false,
 	"editor.tokenColorCustomizations": {
