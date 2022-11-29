@@ -1,0 +1,334 @@
+{
+	"extensions.ignoreRecommendations": true,
+	"editor.minimap.enabled": false,
+	"explorer.confirmDelete": false,
+	"terminal.integrated.shell.linux": "/bin/bash",
+	"python.showStartPage": false,
+	"editor.largeFileOptimizations": false,
+	"yaml.schemas": {
+		"file:///Users/muhammadtaqi/.vscode/extensions/atlassian.atlascode-2.9.0/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+	},
+	"atlascode.bitbucket.enabled": false,
+	"workbench.editorAssociations": {
+		"*.ipynb": "jupyter.notebook.ipynb"
+	},
+	"redhat.telemetry.enabled": false,
+	"security.workspace.trust.untrustedFiles": "open",
+	"workbench.editor.untitled.hint": "hidden",
+	"editor.fontFamily": "Consolas, Menlo, Monaco, 'Courier New', monospace",
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"diffEditor.maxFileSize": 0,
+	"diffEditor.wordWrap": "on",
+	"editor.renderControlCharacters": false,
+	"editor.renderWhitespace": "none",
+	"editor.overviewRulerBorder": false,
+	"editor.quickSuggestions": {
+		"comments": false,
+		"other": true,
+		"strings": false
+	},
+	"editor.renderLineHighlight": "none",
+	"editor.roundedSelection": false,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"breadcrumbs.enabled": false,
+	"diffEditor.renderIndicators": false,
+	"diffEditor.renderSideBySide": false,
+	"editor.acceptSuggestionOnEnter": "on",
+	"editor.autoClosingBrackets": "never",
+	"editor.cursorBlinking": "solid",
+	"editor.cursorStyle": "block",
+	"editor.cursorSurroundingLines": 10,
+	"editor.folding": false,
+	"editor.tokenColorCustomizations": {
+		"comments": "#2ea542"
+	},
+	"editor.wordBasedSuggestions": false,
+	"editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+	"editor.wordWrap": "off",
+	"explorer.compactFolders": false,
+	"workbench.iconTheme": "Monokai Pro Icons",
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"settingsSync.ignoredSettings": [
+		"-php.validate.executablePath",
+		"-sonarlint.pathToNodeExecutable"
+	],
+	"sonarlint.analyzerProperties": {},
+	"solidity-va.tools.surya.option.negModifiers": true,
+	"solidity-va.uml.actors.enable": true,
+	"solidity-va.whatsNew.disabled": true,
+	"solidity-va.debug.parser.showExceptions": true,
+	"explorer.confirmDragAndDrop": false,
+	"emmet.includeLanguages": {
+		"javascriptreact": ""
+	},
+	"files.exclude": {
+		" \"**/._*\": true": true,
+		".history": true,
+		".husky": true,
+		".next": true,
+		".pyc": true,
+		".vscode": true,
+		"**/__pycache__": true,
+		"artifacts": true,
+		"build": true,
+		"cache": true,
+		"node_modules": true
+	},
+	"editor.fontWeight": "normal",
+	"editor.fontSize": 13,
+	"editor.glyphMargin": false,
+	"editor.guides.indentation": false,
+	"editor.hideCursorInOverviewRuler": true,
+	"editor.insertSpaces": false,
+	"editor.lineNumbers": "off",
+	"editor.matchBrackets": "never",
+	"npm.keybindingsChangedWarningShown": true,
+	"yaml.customTags": [
+		"!And",
+		"!And sequence",
+		"!If",
+		"!If sequence",
+		"!Not",
+		"!Not sequence",
+		"!Equals",
+		"!Equals sequence",
+		"!Or",
+		"!Or sequence",
+		"!FindInMap",
+		"!FindInMap sequence",
+		"!Base64",
+		"!Join",
+		"!Join sequence",
+		"!Cidr",
+		"!Ref",
+		"!Sub",
+		"!Sub sequence",
+		"!GetAtt",
+		"!GetAZs",
+		"!ImportValue",
+		"!ImportValue sequence",
+		"!Select",
+		"!Select sequence",
+		"!Split",
+		"!Split sequence"
+	],
+	"hardhat.telemetry": true,
+	"terminal.external.linuxExec": "iterm",
+	"aws.codeWhisperer.includeSuggestionsWithCodeReferences": false,
+	"workbench.colorTheme": "GitHub Dark Default",
+	"terminal.integrated.enableMultiLinePasteWarning": false,
+	"workbench.startupEditor": "none",
+	"window.zoomLevel": -1,
+	"terminal.integrated.fontSize": 14,
+	"workbench.editor.enablePreview": false,
+	"reactSnippets.settings.prettierEnabled": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"grunt.autoDetect": "on",
+	"jake.autoDetect": "on",
+	"editor.tabCompletion": "on",
+	"editor.tabSize": 2,
+	"vim.searchHighlightColor": "rgba(150, 255, 255, 0.3)",
+	"vim.useCtrlKeys": true,
+	"vim.useSystemClipboard": true,
+	"go.autocompleteUnimportedPackages": true,
+	"go.buildFlags": [
+		"-v"
+	],
+	"go.testEnvFile": "",
+	"go.toolsManagement.autoUpdate": true,
+	"go.useLanguageServer": true,
+	"javascript.format.enable": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"rust-analyzer.completion.callable.snippets": "none",
+	"rust-analyzer.inlayHints.bindingModeHints.enable": false,
+	"rust-analyzer.inlayHints.chainingHints.enable": false,
+	"rust-analyzer.inlayHints.closingBraceHints.enable": false,
+	"rust-analyzer.inlayHints.closingBraceHints.minLines": 0,
+	"rust-analyzer.inlayHints.closureReturnTypeHints.enable": "never",
+	"rust-analyzer.inlayHints.lifetimeElisionHints.enable": "never",
+	"rust-analyzer.inlayHints.lifetimeElisionHints.useParameterNames": false,
+	"rust-analyzer.inlayHints.parameterHints.enable": false,
+	"rust-analyzer.inlayHints.reborrowHints.enable": "never",
+	"rust-analyzer.inlayHints.renderColons": false,
+	"rust-analyzer.inlayHints.typeHints.enable": false,
+	"rust-analyzer.inlayHints.typeHints.hideClosureInitialization": false,
+	"rust-analyzer.inlayHints.typeHints.hideNamedConstructor": false,
+	"rust-analyzer.procMacro.ignored": {},
+	"rust-analyzer.semanticHighlighting.doc.comment.inject.enable": false,
+	"telemetry.telemetryLevel": "off",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"vim.cursorStylePerMode.insert": "block",
+	"vim.cursorStylePerMode.normal": "block",
+	"vim.easymotion": true,
+	"vim.enableNeovim": false,
+	"vim.handleKeys": {
+		"<C-a>": false,
+		"<C-f>": false
+	},
+	"vim.hlsearch": true,
+	"vim.incsearch": true,
+	"vim.insertModeKeyBindings": [
+		{
+			"after": [
+				"<Esc>"
+			],
+			"before": [
+				"j",
+				"j"
+			]
+		}
+	],
+	"vim.leader": "<space>",
+	"vim.neovimPath": "/usr/bin/nvim",
+	"vim.neovimUseConfigFile": true,
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
+			"after": [
+				"d",
+				"d"
+			],
+			"before": [
+				"<leader>",
+				"d"
+			]
+		},
+		{
+			"after": [],
+			"before": [
+				"<leader>",
+				"i"
+			],
+			"commands": [
+				{
+					"command": "workbench.action.terminal.focus"
+				}
+			]
+		},
+		{
+			"after": [],
+			"before": [
+				"<leader>",
+				"u"
+			],
+			"commands": [
+				{
+					"command": "workbench.action.focusActiveEditorGroup"
+				}
+			]
+		},
+		{
+			"after": [],
+			"before": [
+				"<leader>",
+				"p"
+			],
+			"commands": [
+				{
+					"command": "workbench.action.quickOpen"
+				}
+			]
+		},
+		{
+			"after": [],
+			"before": [
+				"<leader>",
+				"o"
+			],
+			"commands": [
+				{
+					"command": "workbench.action.quickOpen"
+				}
+			]
+		},
+		{
+			"after": [],
+			"before": [
+				"<leader>",
+				"n"
+			],
+			"commands": [
+				{
+					"command": "workbench.action.terminal.toggleTerminal"
+				}
+			]
+		},
+		{
+			"after": [],
+			"before": [
+				"<leader>",
+				"v"
+			],
+			"commands": [
+				{
+					"command": "workbench.action.splitEditor"
+				}
+			]
+		},
+		{
+			"after": [],
+			"before": [
+				"<leader>",
+				"h"
+			],
+			"commands": [
+				{
+					"command": "workbench.action.focusFirstEditorGroup"
+				}
+			]
+		},
+		{
+			"after": [],
+			"before": [
+				"<leader>",
+				"l"
+			],
+			"commands": [
+				{
+					"command": "workbench.action.focusSecondEditorGroup"
+				}
+			]
+		},
+		{
+			"after": [],
+			"before": [
+				"<C-n>"
+			],
+			"commands": [
+				{
+					"command": ":nohl"
+				}
+			]
+		}
+	],
+	"vim.searchHighlightColor": "rgba(150, 255, 255, 0.3)",
+	"vim.useCtrlKeys": true,
+	"vim.useSystemClipboard": true,
+	"window.closeWhenEmpty": true,
+	"workbench.activityBar.visible": false,
+	"workbench.colorCustomizations": {
+		"editorError.foreground": "#3a2525",
+		"editorInfo.foreground": "#00000000",
+		"editorWarning.foreground": "#00000000"
+	},
+	"workbench.colorTheme": "Gruvbox Dark Hard",
+	"workbench.enableExperiments": false,
+	"workbench.startupEditor": "newUntitledFile"
+}
