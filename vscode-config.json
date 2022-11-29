@@ -2,26 +2,22 @@
 	"extensions.ignoreRecommendations": true,
 	"editor.minimap.enabled": false,
 	"explorer.confirmDelete": false,
-	"terminal.integrated.shell.linux": "/bin/bash",
 	"python.showStartPage": false,
 	"editor.largeFileOptimizations": false,
 	"yaml.schemas": {
 		"file:///Users/muhammadtaqi/.vscode/extensions/atlassian.atlascode-2.9.0/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
 	},
 	"atlascode.bitbucket.enabled": false,
-	"workbench.editorAssociations": {
-		"*.ipynb": "jupyter.notebook.ipynb"
-	},
+	"workbench.experimental.sidePanel.enabled": true,
 	"redhat.telemetry.enabled": false,
 	"security.workspace.trust.untrustedFiles": "open",
-	"workbench.editor.untitled.hint": "hidden",
 	"editor.fontFamily": "Consolas, Menlo, Monaco, 'Courier New', monospace",
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": true,
 	"diffEditor.maxFileSize": 0,
 	"diffEditor.wordWrap": "on",
 	"editor.renderControlCharacters": false,
-	"editor.renderWhitespace": "none",
+	"editor.renderWhitespace": "boundary",
 	"editor.overviewRulerBorder": false,
 	"editor.quickSuggestions": {
 		"comments": false,
@@ -32,7 +28,6 @@
 	"editor.roundedSelection": false,
 	"editor.scrollbar.horizontal": "hidden",
 	"editor.scrollbar.vertical": "hidden",
-	"breadcrumbs.enabled": false,
 	"diffEditor.renderIndicators": false,
 	"diffEditor.renderSideBySide": false,
 	"editor.acceptSuggestionOnEnter": "on",
@@ -47,7 +42,6 @@
 	"editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
 	"editor.wordWrap": "off",
 	"explorer.compactFolders": false,
-	"workbench.iconTheme": "Monokai Pro Icons",
 	"[html]": {
 		"editor.defaultFormatter": "vscode.html-language-features"
 	},
@@ -130,12 +124,11 @@
 	"hardhat.telemetry": true,
 	"terminal.external.linuxExec": "iterm",
 	"aws.codeWhisperer.includeSuggestionsWithCodeReferences": false,
-	"workbench.colorTheme": "GitHub Dark Default",
+	"workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
 	"terminal.integrated.enableMultiLinePasteWarning": false,
-	"workbench.startupEditor": "none",
 	"window.zoomLevel": -1,
 	"terminal.integrated.fontSize": 14,
-	"workbench.editor.enablePreview": false,
+	"workbench.editor.enablePreview": true,
 	"reactSnippets.settings.prettierEnabled": true,
 	"prettier.jsxSingleQuote": true,
 	"prettier.singleQuote": true,
@@ -317,17 +310,20 @@
 			]
 		}
 	],
-	"vim.searchHighlightColor": "rgba(150, 255, 255, 0.3)",
-	"vim.useCtrlKeys": true,
-	"vim.useSystemClipboard": true,
 	"window.closeWhenEmpty": true,
-	"workbench.activityBar.visible": false,
 	"workbench.colorCustomizations": {
 		"editorError.foreground": "#3a2525",
 		"editorInfo.foreground": "#00000000",
 		"editorWarning.foreground": "#00000000"
 	},
-	"workbench.colorTheme": "Gruvbox Dark Hard",
 	"workbench.enableExperiments": false,
-	"workbench.startupEditor": "newUntitledFile"
+	"workbench.startupEditor": "newUntitledFile",
+	"editor.stickyScroll.enabled": true,
+	"workbench.commandPalette.preserveInput": true,
+	"workbench.activityBar.iconClickBehavior": "focus",
+	"workbench.editor.autoLockGroups": {
+		"default": true
+	},
+	"explorer.openEditors.minVisible": 1,
+	"workbench.editor.openPositioning": "first"
 }
