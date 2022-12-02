@@ -31,3 +31,17 @@ npm install -g grunt-cli
 npm install -g jshint
 npm install -g less
 
+
+# PHP 
+brew tap shivammathur/php
+brew install shivammathur/php/php@7.3
+brew link php@7.3
+
+echo 'export PATH="/usr/local/opt/php@7.3/bin:$PATH"' >> ~/.zshrc
+echo 'export PATH="/usr/local/opt/php@7.3/sbin:$PATH"' >> ~/.zshrc
+
+
+
+
+
+
