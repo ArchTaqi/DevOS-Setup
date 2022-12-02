@@ -40,6 +40,18 @@ brew link php@7.3
 echo 'export PATH="/usr/local/opt/php@7.3/bin:$PATH"' >> ~/.zshrc
 echo 'export PATH="/usr/local/opt/php@7.3/sbin:$PATH"' >> ~/.zshrc
 
+## Globally 
+curl -sS https://getcomposer.org/installer | php 
+mkdir -p /usr/local/bin 
+mv composer.phar /usr/local/bin/composer 
+chmod +x /usr/local/bin/composer 
+sudo composer self-update 
+
+## Locally
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php composer-setup.php
+
+
 
 
 
