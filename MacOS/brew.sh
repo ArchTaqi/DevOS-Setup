@@ -26,8 +26,21 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade --all
 
+# Install a program that allows you to install mac apps
+# 1. mas search [app name]
+# 2. mas install [app number in the app store]
+brew install mas 
+
+# upgrade mac programs using `brew cu`
+brew tap buo/cask-upgrade
+
+# drivers
+brew tap homebrew/cask-drivers
+
+
+echo "Installing programs..."
+
 # Setup Homebrew tap`
-brew tap buo/cask-upgrade # upgrade cask by `brew cu`
 brew tap caskroom/cask
 brew tap caskroom/fonts
 brew tap caskroom/versions
@@ -36,6 +49,59 @@ brew tap neovim/neovim
 brew tap sachaos/todoist
 brew tap sashkab/python
 brew tap wallix/awless
+
+
+
+
+brew tap "adoptopenjdk/openjdk"
+brew tap "buo/cask-upgrade"
+brew tap "homebrew/bundle"
+brew tap "homebrew/cask"
+brew tap "homebrew/cask-drivers"
+brew tap "homebrew/cask-fonts"
+brew tap "homebrew/core"
+brew install  "bat"
+brew install  "python@3.9"
+brew install  "cmake"
+brew install  "openldap"
+brew install  "curl"
+brew install  "dash", link: false
+brew install  "docker"
+brew install  "docker-compose"
+brew install  "ffmpeg"
+brew install  "fish"
+brew install  "folly"
+brew install  "mas"
+brew install  "neovim"
+brew install  "nghttp2"
+brew install  "node"
+brew install  "pandoc"
+brew install  "rsync"
+brew install  "ssh-copy-id"
+brew install  "tmux"
+brew install  "watchman"
+brew install  "wget"
+brew install  "yarn"
+brew install --cask --force "adoptopenjdk8"
+brew install --cask --force "dash"
+brew install --cask --force "displaylink"
+brew install --cask --force "figma"
+brew install --cask --force "font-fira-code"
+brew install --cask --force "gitkraken"
+brew install --cask --force "google-chrome"
+brew install --cask --force "iterm2"
+brew install --cask --force "kicad"
+brew install --cask --force "kitty"
+brew install --cask --force "lastpass"
+brew install --cask --force "postman"
+brew install --cask --force "skim"
+brew install --cask --force "slack"
+brew install --cask --force "spectacle"
+brew install --cask --force "spotify"
+brew install --cask --force "visual-studio-code"
+brew install --cask --force "vlc"
+brew install --cask --force "wkhtmltopdf"
+
 
 ##################################################
 echo "Installing Softwares and Productivity tools"
