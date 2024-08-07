@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 
 # Install command-line tools using Homebrew.
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.zshrc
+# restart terminal
+brew doctor
+
 
 # Ask for the administrator password upfront.
 sudo -v
