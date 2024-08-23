@@ -56,3 +56,55 @@ npm install -g lite-server gitignore license
 
 # create dev folder
 mkdir ~/dev
+
+
+
+## OZH 
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+
+plugins=(
+  git
+  vscode
+  sublime
+  dotenv
+  macos
+  heroku
+  python
+  node
+  yarn
+  virtualenv
+  golang
+  aws
+  docker
+  terraform
+  tmux
+  ssh
+  screen
+  rust
+  rvm
+  rsync
+  repo
+  redis-cli
+  pylint
+  pyenv
+  pre-commit
+  poetry
+  poetry-env
+  pm2
+  pip
+  pep8
+  nvm
+  iterm2
+  npm
+  nodenv
+  pipenv
+  homestead
+  helm
+  gitignore
+  bun
+  brew
+  1password
+  ansible
+)
