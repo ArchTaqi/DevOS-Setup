@@ -1,7 +1,31 @@
 # install xcode build tools
 xcode-select --install
+# Install command-line tools using Homebrew.
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.zshrc
+# restart terminal
+brew doctor
+# Make sure we’re using the latest Homebrew.
+brew update
+# Upgrade any already-installed formulae.
+brew upgrade --all
+
 
 # install homebrew
+brew install git
+brew install --cask visual-studio-code
+brew install  "curl"
+
+
+brew install --cask microsoft-teams
+brew install --cask telegram
+brew install --cask discord
+brew install --cask slack
+brew install --cask vlc
+
+
+
+
 
 # install homebrew formulae
 brew install ffmpeg
