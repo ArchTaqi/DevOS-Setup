@@ -5,7 +5,11 @@
 echo "------------------------------"
 echo "Setting up python 3 environment."
 
-# Install Python
+brew install python3
+brew install pipx
+brew install --force python3@3.11
+brew link python3
+brew postinstall python3
 brew install pipenv
 brew install pyenv
 
@@ -17,11 +21,6 @@ fi
 exec "$SHELL"
 
 # let’s download Python 3.9.10
-pyenv install 3.9.10
-
-brew install --force python3
-brew link python3
-
 # Install Python data modules
 pip install numpy
 pip install scipy
