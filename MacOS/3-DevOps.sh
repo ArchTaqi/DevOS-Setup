@@ -5,9 +5,9 @@ brew update
 
 ## Docker
 
-
 ## Terraform 
-brew install terraform
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform
 brew install terragrunt
 brew install terraformer
 brew install terrascan
@@ -15,7 +15,6 @@ brew install terrascan
 ## Security
 #### Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues https://github.com/aquasecurity/trivy
 brew install aquasecurity/trivy/trivy
-
 
 # K8s
 brew install kubectl
