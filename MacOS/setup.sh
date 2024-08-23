@@ -22,7 +22,7 @@ brew install --cask telegram
 brew install --cask discord
 brew install --cask slack
 brew install --cask vlc
-
+brew install --cask brave-browser
 
 
 
