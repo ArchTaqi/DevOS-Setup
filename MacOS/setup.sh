@@ -23,6 +23,7 @@ brew install --cask discord
 brew install --cask slack
 brew install --cask vlc
 brew install --cask brave-browser
+brew install --cask postman
 
 
 
