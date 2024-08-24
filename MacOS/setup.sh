@@ -24,6 +24,8 @@ brew install --cask slack
 brew install --cask vlc
 brew install --cask brave-browser
 brew install --cask postman
+brew install --cask 4k-video-downloader
+brew install --cask 4k-video-to-mp3
 
 ## Docker
 brew install docker
