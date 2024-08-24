@@ -15,6 +15,7 @@ brew upgrade --all
 # install homebrew
 brew install git
 brew install --cask visual-studio-code
+brew install --cask cursor
 brew install  "curl"
 
 
