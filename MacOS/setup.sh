@@ -1,3 +1,4 @@
+# https://formulae.brew.sh/
 # install xcode build tools
 xcode-select --install
 # Install command-line tools using Homebrew.
