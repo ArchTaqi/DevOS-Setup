@@ -26,6 +26,8 @@ brew install --cask brave-browser
 brew install --cask postman
 brew install --cask 4k-video-downloader
 brew install --cask 4k-video-to-mp3
+brew install --cask notion
+brew install --cask notion-calendar
 
 ## Docker
 brew install docker
