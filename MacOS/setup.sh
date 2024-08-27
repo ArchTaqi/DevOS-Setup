@@ -77,6 +77,7 @@ brew install --cask 4k-video-downloader
 brew install --cask 4k-video-to-mp3
 brew install --cask insomnia
 brew install --cask termius
+brew install pure-ftpd
 brew install --cask app-cleaner
 brew install --cask transmission
 
