@@ -112,6 +112,13 @@ brew install --cask postman
 
 
 ##########################
+######## Install PHP  ########
+##########################
+brew install composer
+brew install php
+which php
+
+##########################
 ######## Install Golang  ########
 ##########################
 echo "Install Golang"
