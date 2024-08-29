@@ -85,6 +85,7 @@ brew install --cask transmission
 ###  Setup Development Tools  ######
 ##########################
 echo " Installing Terminal Utils"
+brew install jq
 brew install vim
 brew install neovim
 brew install --cask iterm2
