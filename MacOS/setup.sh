@@ -95,6 +95,7 @@ brew install --force tmux
 brew install --force tree
 brew install --force screen
 brew install --cask ngrok
+brew install --cask google-cloud-sdk
 # Install Heroku
 brew install heroku/brew/heroku
 heroku update
