@@ -114,6 +114,7 @@ brew install --cask google-cloud-sdk
 brew install hub
 brew install p7zip
 brew install --cask postman
+brew install rar
 
 
 ##########################
