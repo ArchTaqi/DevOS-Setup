@@ -89,6 +89,7 @@ echo " Installing Terminal Utils"
 brew install jq
 brew install vim
 brew install neovim
+brew install --cask warp
 brew install --cask iterm2
 brew install --force zsh
 brew install --force tmux
