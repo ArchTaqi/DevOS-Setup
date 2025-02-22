@@ -1,0 +1,69 @@
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+
+# Path to your Oh My Zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
+
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time Oh My Zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+ZSH_THEME="random"
+ZSH_THEME_RANDOM_CANDIDATES=(
+  "robbyrussell"
+  "agnoster"
+  "miloshadzic"
+)
+# Which plugins would you like to load?
+plugins=(git docker docker-compose last-working-dir zsh-autosuggestions zsh-syntax-highlighting)
+source $ZSH/oh-my-zsh.sh
+
+# User configuration
+alias zshconfig="nano ~/.zshrc"
+alias ohmyzsh="nano ~/.oh-my-zsh"
+alias please="sudo"
+# alias update="sudo apt-get update && sudo apt-get upgrade"
+# alias n="nano"
+# alias m="mkdir"
+
+# # List contents with colors for file types, (A)lmost all hidden files (without . and ..), in (C)olumns, with class indicators (F)
+# alias ls='ls --color=auto -ACF'
+# # List contents with colors for file types, (a)ll hidden entries (including . and ..), use (l)ong listing format, with class indicators (F)
+# alias ll='ls --color=auto -alF'
+# alias lh='ls -lh'
+
+# ## Python
+# alias pym='python3 manage.py'
+# alias mkenv='python3 -m venv env'
+# alias startenv='source env/bin/activate && which python3'
+# alias stopenv='deactivate'
+
+# ## docker
+# alias ___docker-container-clean='docker rm -f $(docker ps -a -q)'
+# alias ___docker-volume-clean='docker volume rm -f $(docker volume ls -q)'
+# alias ___docker-network-clean='docker network rm -f $(docker network ls -q)'
+# alias ___docker-full-clean='___docker-container-clean && ___docker-volume-clean && ___docker-network-clean'
+# alias ___docker-image-clean='docker rmi $(docker images -q)'
+
+# PATHS
+# Prepend custom directories to PATH
+export PATH=/opt/homebrew/bin:$PATH
+export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
+
+# Save the current PATH (includes system dirs and above additions)
+export ORIGINAL_PATH="$PATH"
+
+# Source uv's environment script if it exists.
+# Note: This file might override PATH, so we restore important directories later.
+if [ -f "$HOME/.local/bin/env" ]; then
+    source "$HOME/.local/bin/env"
+fi
+
+# Restore essential system directories and ensure uv’s bin is prioritized.
+export PATH="/usr/bin:/bin:$HOME/.local/bin:$ORIGINAL_PATH:$PATH"
+
+# Enable uv shell completions if uv is available
+if command -v uv >/dev/null 2>&1; then
+    eval "$(uv generate-shell-completion zsh)"
+fi
