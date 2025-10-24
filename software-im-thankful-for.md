@@ -1,8 +1,7 @@
 # Software I'm Thankful For
 
-
 - [x] [1Password](https://1password.com/): 1Password manager
-- [x] [Asciinema](https://asciinema.com/): Record and share your terminal sessions, the right way. 
+- [x] [Asciinema](https://asciinema.com/): Record and share your terminal sessions, the right way.
 - [ ] [Contrast](https://usecontrast.com/): A must-have color and accessibility tool for interface designers.
 - [ ] [Copilot](https://apps.apple.com/us/app/copilot-smart-budgets-bills/id1447330651): The most polished and functional budgeting app on the market.
 - [ ] [Descript](https://www.descript.com/): It’s not often that you find software that truly feels like magic. Descript is magic.
@@ -13,7 +12,7 @@
 - [ ] [Gumroad](https://gumroad.com/): If you are a creator and want to sell something online, Gumroad will have you up and earning in minutes.
 - [ ] [Halide Mark II](https://halide.cam/): https://halide.cam/
 - [ ] [IFTTT](https://ifttt.com/): App automation
-- [ ] [Instapaper](https://instapaper.com):  Read-it-Later
+- [ ] [Instapaper](https://instapaper.com): Read-it-Later
 - [ ] [Kap](https://getkap.co/): For quick screen recordings and movie conversions.
 - [ ] [Letterboxd](https://letterboxd.com/): The best place to find and organize your movie watchlist.
 - [ ] [Loom](https://www.loom.com/): Who knew that screen recorders + a profile overlay could be so fun?
@@ -31,7 +30,7 @@
 - [ ] [Typefully](https://typefully.com/): Write, schedule & publish great threads, without distractions — and boost your Twitter growth with powerful analytics.
 - [ ] [Vercel](https://vercel.com/): Everything I make on the internet lives on Vercel. Vercel is the gold standard of developer tools.
 - [x] [VSCode](https://code.visualstudio.com/): My code editor of choice.
-- [x] [Whimsical](https://whimsical.com): Whimsical offers fast collaborative Docs, Flowcharts, Wireframes, Sticky Notes and Mind Maps. 
+- [x] [Whimsical](https://whimsical.com): Whimsical offers fast collaborative Docs, Flowcharts, Wireframes, Sticky Notes and Mind Maps.
 
 <hr />
 
@@ -39,13 +38,12 @@
 
 ## Productivity
 
-- [x] [Rize.io](https://rize.io/): 
+- [x] [Rize.io](https://rize.io/):
 
 ## Collab & Managment
 
 - [x] [Allo.io](https://allo.io): Allo combines the advantages of Trello, Miro, and PowerPoint. It really improves our workflow and makes our lives less complicated.
 - [x] [webwhiteboard.com](https://webwhiteboard.com): Whiteboard for Drawing, avalible for 24 hours.
-
 
 <hr />
 
@@ -54,22 +52,19 @@
 - [x] [Heroku](https://heroku.com/): cloud platform to deploy stuff in different programming languages.
 - [x] [Render](https://render.com/): Competitor to Heorku
 
-
-<hr /> 
+<hr />
 
 ## Web & Mobile Apps Builder Tools
 
 - [x] [Glide
-](https://glideapps.com/): Mobile app generator with app-like features. I use Glide to build the mobile app for the meal kit startup where it allows users to sign-in via Google, browse recipes, customize meal plans, and place orders.
+      ](https://glideapps.com/): Mobile app generator with app-like features. I use Glide to build the mobile app for the meal kit startup where it allows users to sign-in via Google, browse recipes, customize meal plans, and place orders.
 - [x] [Clerk.dev](https://clerk.dev): Authentication forms for your web apps.
 - [x] [Prism](https://stoplight.io/open-source/prism/): Prism, an Open-Source HTTP Mock & Proxy Server
 
-
-<hr /> 
+<hr />
 
 ## Architecture and Servers
 
 - [x] [Diagram as Code](https://github.com/mingrammer/diagrams) Diagrams lets you draw the cloud system architecture in Python code.
 - [x] [Httpie (CLI)](https://httpie.io/cli):
 - [x] [Software Diagrams](https://github.com/jgraph/drawio-desktop)
-
