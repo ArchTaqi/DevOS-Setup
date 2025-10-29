@@ -1,0 +1,295 @@
+{
+  // ============================================
+  // Window Settings
+  // ============================================
+  "window.zoomLevel": -1,
+  "window.menuBarVisibility": "compact",
+  "window.closeWhenEmpty": true,
+
+  // ============================================
+  // Workbench Settings
+  // ============================================
+  "workbench.fontAliasing": "antialiased",
+  "workbench.list.smoothScrolling": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.tree.expandMode": "singleClick",
+  "workbench.tree.indent": 10,
+  "workbench.enableExperiments": false,
+  "workbench.colorTheme": "Gruvbox Dark (Soft)",
+  "workbench.commandPalette.preserveInput": true,
+  "workbench.activityBar.iconClickBehavior": "focus",
+  "workbench.editor.autoLockGroups": {
+    "default": true
+  },
+  "workbench.editor.openPositioning": "first",
+  "workbench.editor.enablePreview": true,
+  "workbench.colorCustomizations": {
+    "editorError.foreground": "#3a2525",
+    "editorInfo.foreground": "#00000000",
+    "editorWarning.foreground": "#00000000"
+  },
+
+  // ============================================
+  // Editor Settings
+  // ============================================
+  "editor.scrollbar.vertical": "visible",
+  "editor.scrollbar.horizontal": "visible",
+  "editor.fontSize": 13,
+  "editor.matchBrackets": "never",
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.overviewRulerBorder": false,
+  "editor.tokenColorCustomizations": {
+    "comments": "#2ea542"
+  },
+  "editor.wordBasedSuggestions": "off",
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.roundedSelection": false,
+  "editor.minimap.enabled": false,
+  "editor.renderLineHighlight": "none",
+  "editor.lineNumbers": "off",
+  "editor.folding": true,
+  "editor.autoClosingBrackets": "always",
+  "editor.insertSpaces": false,
+  "editor.formatOnSave": false,
+  "editor.cursorSurroundingLines": 10,
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.wordWrap": "on",
+  "editor.guides.indentation": false,
+  "editor.accessibilitySupport": "on",
+  "editor.fontFamily": "Consolas",
+  "editor.stickyScroll.enabled": true,
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+
+  // ============================================
+  // Diff Editor Settings
+  // ============================================
+  "diffEditor.renderSideBySide": false,
+  "diffEditor.renderIndicators": false,
+
+  // ============================================
+  // Terminal Settings
+  // ============================================
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontWeight": "300",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.inheritEnv": false,
+  "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.profiles.osx": {
+    "zsh": {
+      "path": "/bin/zsh",
+      "args": ["-l"]
+    }
+  },
+  "terminal.integrated.env.osx": {
+    "Q_NEW_SESSION": "1"
+  },
+
+  // ============================================
+  // Explorer Settings
+  // ============================================
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.openEditors.minVisible": 1,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "package.json": ".browserslist*, .circleci*, .commitlint*, .editorconfig, .eslint*, .gitignore, .gitlab*, .prettierrc*, .stylelint*, Procfile, commitlint*, eslint*, lint-staged*, prettier*, tsconfig.*, package-lock.json, yarn.lock, pnpm-lock.yaml"
+  },
+
+  // ============================================
+  // Search Settings
+  // ============================================
+  "search.exclude": {
+    "**/*.snap": true,
+    "**/*.svg": true,
+    "**/.git": true,
+    "**/.github": false,
+    "**/node_modules": true,
+    "**/dist/**": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
+    "**/yarn.lock": true
+  },
+
+  // ============================================
+  // Files Settings
+  // ============================================
+  "files.exclude": {
+    " \"**/._*\": true": true,
+    ".history": true,
+    ".husky": true,
+    ".next": true,
+    ".pyc": true,
+    ".vscode": true,
+    "**/__pycache__": true,
+    "artifacts": true,
+    "build": true,
+    "cache": true,
+    "node_modules": true
+  },
+
+  // ============================================
+  // Other Core Settings
+  // ============================================
+  "breadcrumbs.enabled": true,
+  "telemetry.telemetryLevel": "off",
+  "extensions.ignoreRecommendations": true,
+  "accessibility.signalOptions.volume": 10,
+
+  // ============================================
+  // Language-Specific Settings
+  // ============================================
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+
+  // ============================================
+  // JavaScript & TypeScript
+  // ============================================
+  "javascript.format.enable": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // ============================================
+  // Go
+  // ============================================
+  "go.buildFlags": ["-v"],
+  "go.useLanguageServer": true,
+  "go.autocompleteUnimportedPackages": true,
+  "go.testEnvFile": "",
+  "go.toolsManagement.autoUpdate": true,
+
+  // ============================================
+  // Rust Analyzer
+  // ============================================
+  "rust-analyzer.completion.callable.snippets": "none",
+  "rust-analyzer.inlayHints.bindingModeHints.enable": false,
+  "rust-analyzer.inlayHints.chainingHints.enable": false,
+  "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+  "rust-analyzer.inlayHints.closingBraceHints.minLines": 0,
+  "rust-analyzer.inlayHints.closureReturnTypeHints.enable": "never",
+  "rust-analyzer.inlayHints.lifetimeElisionHints.enable": "never",
+  "rust-analyzer.inlayHints.lifetimeElisionHints.useParameterNames": false,
+  "rust-analyzer.inlayHints.parameterHints.enable": false,
+  "rust-analyzer.inlayHints.reborrowHints.enable": "never",
+  "rust-analyzer.inlayHints.renderColons": false,
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+  "rust-analyzer.inlayHints.typeHints.hideClosureInitialization": false,
+  "rust-analyzer.inlayHints.typeHints.hideNamedConstructor": false,
+  "rust-analyzer.procMacro.ignored": {},
+  "rust-analyzer.semanticHighlighting.doc.comment.inject.enable": false,
+
+  // ============================================
+  // Vim Extension
+  // ============================================
+  "vim.enableNeovim": false,
+  "vim.neovimPath": "/usr/bin/nvim",
+  "vim.searchHighlightColor": "rgba(150, 255, 255, 0.3)",
+  "vim.leader": "<space>",
+  "vim.cursorStylePerMode.insert": "block",
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.neovimUseConfigFile": true,
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<leader>", "p"],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.quickOpen"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "o"],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.quickOpen"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "v"],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.splitEditor"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.focusFirstEditorGroup"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.focusSecondEditorGroup"
+        }
+      ]
+    },
+    {
+      "before": ["<C-n>"],
+      "after": [],
+      "commands": [
+        {
+          "command": ":nohl"
+        }
+      ]
+    }
+  ]
+}
