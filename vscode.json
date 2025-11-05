@@ -51,7 +51,6 @@
   "editor.roundedSelection": false,
   "editor.minimap.enabled": false,
   "editor.renderLineHighlight": "none",
-  "editor.lineNumbers": "off",
   "editor.folding": true,
   "editor.autoClosingBrackets": "always",
   "editor.insertSpaces": false,
@@ -60,7 +59,7 @@
   "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
   "editor.wordWrap": "on",
   "editor.guides.indentation": false,
-  "editor.accessibilitySupport": "on",
+  "editor.accessibilitySupport": "off",
   "editor.fontFamily": "Consolas",
   "editor.stickyScroll.enabled": true,
   "editor.tabCompletion": "on",
@@ -290,6 +289,37 @@
           "command": ":nohl"
         }
       ]
+    }
+  ],
+  "pgsql.serverGroups": [
+    {
+      "name": "Servers",
+      "id": "6DA638DE-07EE-49BC-B2B8-775F74612EA6",
+      "isDefault": true
+    },
+    {
+      "id": "1EBB885E-40DA-4FEF-A21A-49721DC2230A",
+      "name": "Neutrl",
+      "description": ""
+    }
+  ],
+  "pgsql.connections": [
+    {
+      "id": "24BA54F4-FB16-4D85-8C9E-B089505A0469",
+      "groupId": "6DA638DE-07EE-49BC-B2B8-775F74612EA6",
+      "authenticationType": "SqlLogin",
+      "connectTimeout": 15,
+      "applicationName": "vscode-pgsql",
+      "clientEncoding": "utf8",
+      "sslmode": "require",
+      "savePassword": true,
+      "server": "35.242.144.176",
+      "user": "neutrl_secret_prod_user72",
+      "database": "neutrl_prod_db",
+      "password": "",
+      "profileName": "neutrl_prod_db",
+      "sshPassword": "",
+      "expiresOn": 0
     }
   ]
 }
